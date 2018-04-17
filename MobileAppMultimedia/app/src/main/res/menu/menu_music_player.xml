@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.musicplayertemplate.MusicPlayerActivity">
+
+
+    <item android:id="@+id/video_view"
+        android:orderInCategory="101"
+        android:title="@string/video_view"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/audio_recording"
+        android:orderInCategory="102"
+        android:title="@string/audio_recording"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/video_recording"
+        android:orderInCategory="103"
+        android:title="@string/video_recording"
+        app:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/camera_n_gallery"
+        android:orderInCategory="104"
+        android:title="@string/camera_n_gallery"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="105"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
